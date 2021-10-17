@@ -70,3 +70,43 @@ header ul li a.active {
   margin-right: 10px;
   font-size: 1.4rem;
 }
+.contentBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.contentBox .text {
+  max-width: 800px;
+}
+.contentBox .text h2 {
+  font-size: 6rem;
+  color: #3b5998;
+}
+.contentBox .text p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8rem;
+}
+.contentBox .text h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #333;
+}
+.btn {
+  background: #3b5998;
+  color: #fff;
+  display: inline-flex;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  margin: 5px 20px 5px 0;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #2d88ff;
+}
+.btn ion-icon {
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
