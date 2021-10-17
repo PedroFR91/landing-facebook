@@ -155,3 +155,56 @@ header ul li a.active {
 .social li a:hover {
   color: #2d88ff;
 }
+/*Media queries*/
+@media (max-width: 991px) {
+  header {
+    padding: 30px;
+    justify-content: space-between;
+  }
+  .main {
+    padding: 30px;
+    background: #fff;
+  }
+  .app {
+    display: none;
+  }
+  .contentBox {
+    flex-direction: column-reverse;
+    margin: 100px 0;
+  }
+  .imgBox img {
+    margin: 0;
+  }
+  .dots {
+    position: relative;
+    top: initial;
+    transform: none;
+    right: initial;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .dots .dot {
+    width: 25px;
+    height: 10px;
+    background: #3b5998;
+    opacity: 0.2;
+  }
+  .dots .dot.active {
+    background: #3b5998;
+    opacity: 1;
+  }
+  .contentBox .text {
+    text-align: center;
+  }
+  .contentBox .text h2 {
+    font-size: 3rem;
+  }
+  .social {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
