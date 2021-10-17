@@ -74,6 +74,7 @@ header ul li a.active {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .contentBox .text {
   max-width: 800px;
@@ -109,4 +110,12 @@ header ul li a.active {
 .btn ion-icon {
   margin-right: 10px;
   font-size: 1.4rem;
+}
+.imgBox img {
+  margin-right: 100px;
+  max-width: 250px;
+  display: none;
+}
+.imgBox img.active {
+  display: block;
 }
