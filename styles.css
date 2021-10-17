@@ -139,3 +139,19 @@ header ul li a.active {
 .dots .dot.active {
   background: #fff;
 }
+.social {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+}
+.social li {
+  list-style: none;
+  margin-right: 20px;
+}
+.social li a {
+  font-size: 1.8rem;
+  color: #3b5998;
+}
+.social li a:hover {
+  color: #2d88ff;
+}
