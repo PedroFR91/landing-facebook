@@ -119,3 +119,23 @@ header ul li a.active {
 .imgBox img.active {
   display: block;
 }
+.dots {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.dots .dot {
+  position: relative;
+  width: 10px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  display: inline-flex;
+  margin: 5px;
+  cursor: pointer;
+}
+.dots .dot.active {
+  background: #fff;
+}
